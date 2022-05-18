@@ -1,13 +1,22 @@
 <resources>
     <string name="app_name">Track Your Health</string>
-    <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
-
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="action_delete_content_description">Delete metric</string>
+    <string name="action_change_content_description">Change metric</string>
+    <string name="change_contact">Change metric</string>
+    <string name="action_save_content_description">Save metric</string>
     <string name="image_add">image_add</string>
+    <string name="action_save_title">Save</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="quantitative">Quantitative</string>
+    <string name="qualitative">Qualitative</string>
+    <string name="switch_type">switch_type</string>
+    <string name="deadline">Deadline</string>
+    <string name="tap_to_open">Tap to open</string>
+    <string name="tap_to_add_date">Tap to add date</string>
+    <string name="add_your_data_here">Add your info here</string>
+    <string name="sign_out">Sign out</string>
+    <string name="add_item">Add item</string>
+    <string name="enter_your_metric_here">Enter your metric here</string>
+    <string name="which_metric_do_you_want_to_create">Which metric do you want to create?</string>
 </resources>

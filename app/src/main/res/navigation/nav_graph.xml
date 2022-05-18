@@ -3,26 +3,78 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/destination_auth">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.trackyourhealth.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
-
+        android:id="@+id/destination_auth"
+        android:name="com.example.trackyourhealth.view.AuthFragment"
+        android:label="@string/app_name">
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/on_sign_out"
+            app:destination="@id/destination_list"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/show_main"
+            app:destination="@id/destination_list" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.trackyourhealth.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
-
+        android:id="@+id/destination_list"
+        android:name="com.example.trackyourhealth.view.MetricListFragment"
+        android:label="List of metrics"
+        tools:layout="@layout/fragment_metric_list">
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/showMetricDetails"
+            app:destination="@id/destination_metric_item" />
+        <action
+            android:id="@+id/addMetric"
+            app:destination="@id/destination_metric_add" />
+        <action
+            android:id="@+id/on_sign_out"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/nav_graph"
+            app:popUpToInclusive="true"
+            app:destination="@id/destination_auth" />
     </fragment>
+
+    <fragment
+        android:id="@+id/destination_metric_item"
+        android:name="com.example.trackyourhealth.view.MetricDetailFragment"
+        android:label="Metric details">
+        <action
+            android:id="@+id/onRemoveSuccess"
+            app:destination="@id/destination_list" />
+        <action
+            android:id="@+id/showChangeMetric"
+            app:destination="@id/destination_metric_change" />
+        <argument
+            android:name="metricId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_metric_add"
+        android:name="com.example.trackyourhealth.view.MetricAddFragment"
+        android:label="Add new metric">
+        <action
+            android:id="@+id/onAddSuccess"
+            app:destination="@id/destination_metric_item" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destination_metric_change"
+        android:name="com.example.trackyourhealth.view.MetricChangeFragment"
+        android:label="Add info">
+        <action
+            android:id="@+id/onChangeSuccess"
+            app:destination="@id/destination_metric_item" />
+        <argument
+            android:name="metricId"
+            android:defaultValue="-1L"
+            app:argType="long" />
+    </fragment>
+
+
 </navigation>

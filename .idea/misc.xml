@@ -1,5 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_action_add.xml" value="0.2245" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_action_all.xml" value="0.2245" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_action_completed.xml" value="0.1965" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_check.xml" value="0.2245" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_deadline.xml" value="0.1965" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_tags.xml" value="0.2245" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-anydpi/ic_undo.xml" value="0.1965" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1965" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable-v24/rounded_corners.xml" value="0.2245" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/contact_list_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/content_main.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_auth.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_metric_add.xml" value="0.33" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_metric_change.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_metric_detail.xml" value="0.25" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_metric_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/fragment_metric_list.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/metric_detail_item.xml" value="0.33" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/layout/metric_list_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/menu/menu_add.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/menu/menu_detail.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/menu/menu_list.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Dino/AndroidStudioProjects/TrackYourHealth/app/src/main/res/menu/menu_main.xml" value="0.18541666666666667" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
