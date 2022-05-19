@@ -73,10 +73,16 @@ class MetricChangeFragment : Fragment() {
         }
     }
 
+    private fun validateInfo(): Boolean = binding.edittextInfo.let { field ->
+        field.text.toString().trim().isNotEmpty().also {
+            field.error = if (!it) "Required field" else null
+        }
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_save -> {
-                addMetric()
+                if (validateInfo()) addMetric()
             }
         }
         return true

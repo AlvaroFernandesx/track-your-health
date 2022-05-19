@@ -143,10 +143,6 @@ class RepositoryFirestoreAuth(application: Application) : Repository {
             }
     }
 
-    override suspend fun refresh() {
-
-    }
-
     private suspend fun nextId(): Long = getCollection()
         .document(metricIdDoc)
         .get(getSource())

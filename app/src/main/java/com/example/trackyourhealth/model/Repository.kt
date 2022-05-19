@@ -13,6 +13,4 @@ interface Repository {
     suspend fun removeById(id: Long)
 
     suspend fun removeAll()
-
-    suspend fun refresh()
 }
